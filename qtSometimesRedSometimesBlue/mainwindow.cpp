@@ -1,14 +1,24 @@
+#include <QPalette>
+#include <QDateTime>
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::MainWindow)
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
 {
-    ui->setupUi(this);
+    time_t t = QDateTime::currentDateTime().toTime_t();
+    qsrand(t);
+
+    if (qrand() % 2 == 0)
+    {
+        this->window()->setPalette(QPalette( Qt::red ));
+    }
+    else
+    {
+        this->window()->setPalette(QPalette( Qt::blue ));
+    }
 }
 
 MainWindow::~MainWindow()
 {
-    delete ui;
+
 }
