@@ -2,6 +2,13 @@
   (:require [clojure.test :refer :all]
             [somtimesredsometimesblue.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest entropy-test
+  (testing "Entropy test"
+    (dorun (for [i (range 0 5)]
+      (let [c (get-colour)]
+        (println c)
+        (if (= c "red")
+          (println "Red!")
+          (println "Blue!"))
+        (println "")
+        )))))
