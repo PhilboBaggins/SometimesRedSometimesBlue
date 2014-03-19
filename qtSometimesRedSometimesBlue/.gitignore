@@ -1,1 +1,16 @@
+# User project file for QTCreator
 qtSometimesRedSometimesBlue.pro.user
+
+# Executable
+qtSometimesRedSometimesBlue
+
+# Object files
+main.o
+mainwindow.o
+moc_mainwindow.o
+
+# qmake generated content
+moc_mainwindow.cpp
+Makefile
+Makefile.Debug
+Makefile.Release
