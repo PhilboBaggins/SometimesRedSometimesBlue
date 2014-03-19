@@ -11,4 +11,4 @@ set LOVE_PATH=%ProgramFiles(x86)%\LOVE\love
 goto start_app
 
 :start_app
-start "" "%LOVE_PATH%" --console .
+start "" "%LOVE_PATH%" .
