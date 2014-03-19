@@ -1,35 +1,19 @@
-# somtimesredsometimesblue
+# Somtimes Red, Sometimes Blue
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+A desktop implementation of the fantastic web page [www.sometimesredsometimesblue.com](http://www.sometimesredsometimesblue.com) written in [Clojure](http://clojure.org/) and using the [Seesaw library](https://github.com/daveray/seesaw).
 
 ## Usage
 
-FIXME: explanation
+This project is managed with [Leiningen](http://leiningen.org/). You can build and run it like this:
 
-    $ java -jar somtimesredsometimesblue-0.1.0-standalone.jar [args]
+    $ lein run
 
-## Options
+and you can package the project and dependencies as standalone jar like this:
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    $ lein uberjar
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013, 2014 FIXME
 
 Distributed under the Eclipse Public License, the same as Clojure.
