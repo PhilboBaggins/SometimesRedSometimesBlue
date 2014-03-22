@@ -14,6 +14,6 @@ and you can package the project and dependencies as standalone jar like this:
 
 ## License
 
-Copyright © 2013, 2014 FIXME
+Copyright © 2014 Phil Baldwin
 
-Distributed under the Eclipse Public License, the same as Clojure.
+Distributed under the zlib license.

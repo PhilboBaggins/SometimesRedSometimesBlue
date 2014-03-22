@@ -4,8 +4,8 @@
 # Purpose:     A desktop recreation of www.sometimesredsometimesblue.com
 # Author:      phil
 # Created:     2011-09-14
-# Copyright:   (c) phil 2011
-# Licence:     <your licence>
+# Copyright:   (c) Phil Baldwin 2011
+# Licence:     zlib license
 #-------------------------------------------------------------------------------
 
 import random
