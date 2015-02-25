@@ -6,7 +6,7 @@
 
 void setBackgroundColour(void)
 {
-    srand(time(NULL));
+    srand((unsigned int)time(NULL));
     if ((rand() % 2) == 0)
     {
         glClearColor(255, 0, 0, 0);

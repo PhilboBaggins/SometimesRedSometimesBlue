@@ -25,7 +25,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLine
     wndclass.lpszMenuName   = NULL;
 
     // Red or blue
-    srand(time(NULL));
+    srand((unsigned int)time(NULL));
     if ((rand() % 2) == 0)
     {
         wndclass.hbrBackground  = (HBRUSH)CreateSolidBrush(RGB(255, 0, 0));

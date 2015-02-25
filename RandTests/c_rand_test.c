@@ -9,7 +9,7 @@ int main(int argc, char **argv)
     int blue = 0;
     while(counts < 100 * 1000)
     {
-        srand(time(NULL));
+        srand((unsigned int)time(NULL));
         if ((rand() % 2) == 0)
         {
             ++red;

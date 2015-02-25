@@ -17,11 +17,11 @@ int main(int argc, char** argv)
     int x = 0, y = 0;
     long int location = 0;
 
-    char RED  = 0;
-    char BLUE = 0;
+    unsigned char RED  = 0;
+    unsigned char BLUE = 0;
 
     // Red or blue?
-    srand(time(NULL));
+    srand((unsigned int)time(NULL));
     if ((rand() % 2) == 0)
     {
         RED  = 255;
