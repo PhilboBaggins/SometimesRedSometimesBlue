@@ -16,5 +16,5 @@ The source code for this implementation is cross platform but it will need to be
 
 This implementation is still not complete. The following still needs to be done:
 
-* Open a SFML window with background set to red or blue
-* Build on Windows
+* [ ] Open a SFML window with background set to red or blue
+* [ ] Build on Windows

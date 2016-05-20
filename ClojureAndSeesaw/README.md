@@ -1,6 +1,6 @@
 # Somtimes Red, Sometimes Blue
 
-A desktop implementation of the fantastic web page [www.sometimesredsometimesblue.com](http://www.sometimesredsometimesblue.com) written in [Clojure](http://clojure.org/) and using the [Seesaw library](https://github.com/daveray/seesaw).
+A desktop implementation of the fantastic web page [www.sometimesredsometimesblue.com](http://www.sometimesredsometimesblue.com) written in [Clojure](http://clojure.org/) using the [Seesaw library](https://github.com/daveray/seesaw).
 
 ## Usage
 
