@@ -1,0 +1,9 @@
+
+[projectfiles]
+FILE_0=main.agc;-1
+
+[files]
+FILE_NAME_0=1;main.agc
+
+[project]
+description=Sometimes red, sometimes blue implemented with App Game Kit 2
