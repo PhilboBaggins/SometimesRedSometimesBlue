@@ -1,8 +1,5 @@
------------------------------------------------------------------------------------------
---
--- main.lua
---
------------------------------------------------------------------------------------------
+
+-- GLOBALS: math, display, os, Runtime
 
 local function SometimesRedSometimesBlue()
     local zeroOrOne = math.round(math.random())
