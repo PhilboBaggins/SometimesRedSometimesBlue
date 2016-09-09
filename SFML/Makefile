@@ -4,10 +4,10 @@ CFLAGS := -Wall -g
 all: sometimesredsometimesblue
 
 sometimesredsometimesblue.o: sometimesredsometimesblue.cpp
-	$(CPP) $(CFLAGS) -o sometimesredsometimesblue.o -c sometimesredsometimesblue.cpp
+	$(CPP) $(CFLAGS) -c -o $@ $^
 
 sometimesredsometimesblue: sometimesredsometimesblue.o
-	$(CPP) $(CFLAGS) -o sometimesredsometimesblue sometimesredsometimesblue.o -lsfml-system
+	$(CPP) $(CFLAGS) -lsfml-system -o $@ $^
 
 clean:
 	rm -f sometimesredsometimesblue

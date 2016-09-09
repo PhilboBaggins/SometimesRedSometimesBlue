@@ -6,10 +6,10 @@ CFLAGS := -Wall -g
 all: fbsometimesredsometimesblue
 
 fbsometimesredsometimesblue: fbsometimesredsometimesblue.o
-	$(CC) $(CFLAGS) -o fbsometimesredsometimesblue fbsometimesredsometimesblue.o
+	$(CC) $(CFLAGS) -o $@ $<
 
 fbsometimesredsometimesblue.o: fbsometimesredsometimesblue.c
-	$(CC) $(CFLAGS) -c -o fbsometimesredsometimesblue.o fbsometimesredsometimesblue.c
+	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
 	rm -f fbsometimesredsometimesblue

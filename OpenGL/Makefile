@@ -4,10 +4,10 @@ CFLAGS := -Wall -g
 all: sometimesredsometimesblue
 
 sometimesredsometimesblue.o: sometimesredsometimesblue.c
-	$(CC) $(CFLAGS) -o sometimesredsometimesblue.o -c sometimesredsometimesblue.c
+	$(CC) $(CFLAGS) -c -o $@ $<
 
 sometimesredsometimesblue: sometimesredsometimesblue.o
-	$(CC) $(CFLAGS) -o sometimesredsometimesblue sometimesredsometimesblue.o -lglut
+	$(CC) $(CFLAGS) -lglut -o $@ $<
 
 clean:
 	rm -f sometimesredsometimesblue
