@@ -1,5 +1,6 @@
 CC := gcc
 CFLAGS := -Wall -g
+LIBS := -lbsd
 
 .PHONY : all clean
 
@@ -9,7 +10,7 @@ fbsometimesredsometimesblue: fbsometimesredsometimesblue.o
 	$(CC) $(CFLAGS) -o $@ $<
 
 fbsometimesredsometimesblue.o: fbsometimesredsometimesblue.c
-	$(CC) $(CFLAGS) -c -o $@ $<
+	$(CC) $(CFLAGS) $(LIBS) -c -o $@ $<
 
 clean:
 	rm -f fbsometimesredsometimesblue

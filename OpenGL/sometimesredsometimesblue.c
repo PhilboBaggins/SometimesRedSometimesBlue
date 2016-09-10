@@ -3,17 +3,17 @@
 #include <GL/glut.h>
 #include <time.h>
 #include <stdlib.h>
+#include <bsd/stdlib.h>
 
 void setBackgroundColour(void)
 {
-    srand((unsigned int)time(NULL));
-    if ((rand() % 2) == 0)
+    if (arc4random_uniform(2) == 0)
     {
-        glClearColor(255, 0, 0, 0);
+        glClearColor(255, 0, 0, 0); // Red
     }
     else
     {
-        glClearColor(0, 0, 255, 0);
+        glClearColor(0, 0, 255, 0); // Blue
     }
 }
 
@@ -39,7 +39,7 @@ int main(int argc, char **argv)
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowPosition(50, 50);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("Sometimes red sometimes blue");
+    glutCreateWindow("Sometimes red, sometimes blue");
     setBackgroundColour();
     glutDisplayFunc(display);
     glutReshapeFunc(reshape);

@@ -6,6 +6,7 @@
 #include <sys/mman.h>
 #include <sys/ioctl.h>
 #include <time.h>
+#include <bsd/stdlib.h>
 
 int main(int argc, char** argv)
 {
@@ -17,21 +18,10 @@ int main(int argc, char** argv)
     int x = 0, y = 0;
     long int location = 0;
 
-    unsigned char RED  = 0;
-    unsigned char BLUE = 0;
-
     // Red or blue?
-    srand((unsigned int)time(NULL));
-    if ((rand() % 2) == 0)
-    {
-        RED  = 255;
-        BLUE = 0;
-    }
-    else
-    {
-        RED  = 0;
-        BLUE = 255;
-    }
+    u_int32_t n arc4random_uniform(2);
+    const unsigned char RED  = (n == 0) ? 255 : 0;
+    const unsigned char BLUE = (n == 0) ? 0 : 255;
 
     if (argc >= 2)
     {
