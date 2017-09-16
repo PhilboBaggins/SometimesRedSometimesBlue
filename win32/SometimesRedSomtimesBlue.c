@@ -38,7 +38,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLine
     RegisterClassEx(&wndclass);
 
     hwnd = CreateWindow(appName,
-                        "Somtimes red sometimes blue",
+                        "Sometimes red sometimes blue",
                         WS_OVERLAPPEDWINDOW,
                         CW_USEDEFAULT, CW_USEDEFAULT,
                         CW_USEDEFAULT, CW_USEDEFAULT,
