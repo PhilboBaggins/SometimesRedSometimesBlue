@@ -2,14 +2,26 @@ extern crate gl;
 extern crate glutin;
 extern crate rand;
 
+use glutin::GlContext;
+
 use rand::Rng;
 
 fn main() {
-    let window = glutin::Window::new().unwrap();
+    let mut events_loop = glutin::EventsLoop::new();
+    let window = glutin::WindowBuilder::new()
+        .with_title("Sometimes red, sometimes blur")
+        //.with_dimensions(1024, 768)
+        ;
 
-    let _ = unsafe { window.make_current() };
+    let context = glutin::ContextBuilder::new()
+        .with_vsync(true);
+    let gl_window = glutin::GlWindow::new(window, context, &events_loop).unwrap();
 
-    gl::load_with(|symbol| window.get_proc_address(symbol) as *const _);
+    unsafe {
+        gl_window.make_current().unwrap();
+    }
+
+    gl::load_with(|symbol| gl_window.get_proc_address(symbol) as *const _);
 
     let mut rng = rand::thread_rng();
     if rng.gen() {
@@ -19,13 +31,19 @@ fn main() {
         unsafe { gl::ClearColor(0.0, 0.0, 1.0, 1.0); }  // Blue
     }
 
-    for event in window.wait_events() {
+    let mut running = true;
+    while running {
         unsafe { gl::Clear(gl::COLOR_BUFFER_BIT) };
-        let _ = window.swap_buffers();
+        gl_window.swap_buffers().unwrap();
 
-        match event {
-            glutin::Event::Closed => break,
-            _ => ()
-        }
+        events_loop.poll_events(|event| {
+            match event {
+                glutin::Event::WindowEvent{ event, .. } => match event {
+                    glutin::WindowEvent::Closed => running = false,
+                    _ => ()
+                },
+                _ => ()
+            }
+        });
     }
 }
