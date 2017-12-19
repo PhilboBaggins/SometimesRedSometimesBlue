@@ -7,10 +7,10 @@ LIBS := -lbsd
 all: fbsometimesredsometimesblue
 
 fbsometimesredsometimesblue: fbsometimesredsometimesblue.o
-	$(CC) $(CFLAGS) -o $@ $<
+	$(CC) $(CFLAGS) $(LIBS) -o $@ $<
 
 fbsometimesredsometimesblue.o: fbsometimesredsometimesblue.c
-	$(CC) $(CFLAGS) $(LIBS) -c -o $@ $<
+	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
 	rm -f fbsometimesredsometimesblue
