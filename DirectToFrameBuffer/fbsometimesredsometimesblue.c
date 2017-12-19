@@ -19,7 +19,7 @@ int main(int argc, char** argv)
     long int location = 0;
 
     // Red or blue?
-    u_int32_t n arc4random_uniform(2);
+    u_int32_t n = arc4random_uniform(2);
     const unsigned char RED  = (n == 0) ? 255 : 0;
     const unsigned char BLUE = (n == 0) ? 0 : 255;
 
