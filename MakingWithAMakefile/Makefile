@@ -1,9 +1,7 @@
 CC := gcc
 CFLAGS := -Wall -O3
 
-#ifeq ($(shell test $$RANDOM -gt 16383; echo $$?),1)
-
-ifeq ($(shell awk 'BEGIN{srand(); printf("%d", 2*rand())}'),0)
+ifeq ($(shell awk 'BEGIN{srand(); printf("%d", 2*rand())}'), 0)
 RANDOM_COLOUR := red
 else
 RANDOM_COLOUR := blue
