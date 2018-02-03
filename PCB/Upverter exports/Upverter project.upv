@@ -922,13 +922,171 @@
         }, 
         {
             "attributes": {
-                "refdes": "U16"
+                "refdes": "U4"
             }, 
-            "footprint_attributes": [], 
+            "footprint_attributes": [
+                {
+                    "flip": false, 
+                    "layer": "top package outline", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "top courtyard", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "top silkscreen", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "top silkscreen", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "top silkscreen", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "top silkscreen", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }
+            ], 
             "footprint_index": 0, 
-            "gen_obj_attributes": [], 
-            "instance_id": "ee92f14646adc0e9", 
-            "library_id": "64ede35607d1c554", 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 1.0, 
+                "side": "top", 
+                "x": 23000000, 
+                "y": 5000000
+            }, 
+            "gen_obj_attributes": [
+                {
+                    "attributes": {
+                        "attached_layers": "top solder mask,top paste,top copper", 
+                        "height": "400000", 
+                        "radius": "0", 
+                        "shape": "rectangle", 
+                        "spoke_width": "-1", 
+                        "type": "padstack", 
+                        "width": "900000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "rotation": 0.0, 
+                    "x": -1235355, 
+                    "y": 849999
+                }, 
+                {
+                    "attributes": {
+                        "attached_layers": "top solder mask,top paste,top copper", 
+                        "height": "400000", 
+                        "radius": "167915", 
+                        "shape": "rounded rectangle", 
+                        "spoke_width": "-1", 
+                        "type": "padstack", 
+                        "width": "900000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "rotation": 0.0, 
+                    "x": -1235355, 
+                    "y": 200000
+                }, 
+                {
+                    "attributes": {
+                        "attached_layers": "top solder mask,top paste,top copper", 
+                        "height": "400000", 
+                        "radius": "167915", 
+                        "shape": "rounded rectangle", 
+                        "spoke_width": "-1", 
+                        "type": "padstack", 
+                        "width": "900000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "rotation": 0.0, 
+                    "x": -1235355, 
+                    "y": -450000
+                }, 
+                {
+                    "attributes": {
+                        "attached_layers": "top solder mask,top paste,top copper", 
+                        "height": "400000", 
+                        "radius": "167915", 
+                        "shape": "rounded rectangle", 
+                        "spoke_width": "-1", 
+                        "type": "padstack", 
+                        "width": "900000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "rotation": 0.0, 
+                    "x": 335355, 
+                    "y": -450000
+                }, 
+                {
+                    "attributes": {
+                        "attached_layers": "top solder mask,top paste,top copper", 
+                        "height": "400000", 
+                        "radius": "167915", 
+                        "shape": "rounded rectangle", 
+                        "spoke_width": "-1", 
+                        "type": "padstack", 
+                        "width": "900000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "rotation": 0.0, 
+                    "x": 335355, 
+                    "y": 200000
+                }, 
+                {
+                    "attributes": {
+                        "attached_layers": "top solder mask,top paste,top copper", 
+                        "height": "400000", 
+                        "radius": "167915", 
+                        "shape": "rounded rectangle", 
+                        "spoke_width": "-1", 
+                        "type": "padstack", 
+                        "width": "900000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "rotation": 0.0, 
+                    "x": 335355, 
+                    "y": 849999
+                }, 
+                {
+                    "attributes": {
+                        "type": "center cross", 
+                        "width": "10000000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top component", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }
+            ], 
+            "instance_id": "c64be6916acd128f", 
+            "library_id": "582b0c5d29e75b11", 
             "symbol_attributes": [
                 {
                     "annotations": [
@@ -942,15 +1100,15 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "74AHC1G79GW,125", 
+                                "text": "NC7WZ14P6X", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "rotation": 0.0, 
-                            "value": "74AHC1G79GW,125", 
+                            "value": "NC7WZ14P6X", 
                             "visible": "true", 
-                            "x": 0, 
+                            "x": 10, 
                             "y": -50
                         }, 
                         {
@@ -963,23 +1121,23 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "U16", 
+                                "text": "U4", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "rotation": 0.0, 
-                            "value": "U16", 
+                            "value": "U4", 
                             "visible": "true", 
-                            "x": 40, 
-                            "y": 10
+                            "x": 0, 
+                            "y": 20
                         }
                     ], 
                     "flip": "false", 
                     "hidden": "false", 
                     "rotation": 0.0, 
                     "x": -150, 
-                    "y": 380
+                    "y": 630
                 }
             ], 
             "symbol_index": 0
@@ -1687,16 +1845,16 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "U1", 
+                                "text": "74AHC1G08SE", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "rotation": 0.0, 
-                            "value": "U1", 
+                            "value": "74AHC1G08SE", 
                             "visible": "true", 
-                            "x": 51, 
-                            "y": 10
+                            "x": 50, 
+                            "y": -60
                         }, 
                         {
                             "flip": false, 
@@ -1708,16 +1866,16 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "74AHC1G08SE", 
+                                "text": "U1", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "rotation": 0.0, 
-                            "value": "74AHC1G08SE", 
+                            "value": "U1", 
                             "visible": "true", 
-                            "x": 50, 
-                            "y": -60
+                            "x": 51, 
+                            "y": 10
                         }
                     ], 
                     "flip": "false", 
@@ -2037,228 +2195,6 @@
                     "rotation": 0.0, 
                     "x": -290, 
                     "y": -20
-                }
-            ], 
-            "symbol_index": 0
-        }, 
-        {
-            "attributes": {
-                "refdes": "U4"
-            }, 
-            "footprint_attributes": [
-                {
-                    "flip": false, 
-                    "layer": "top package outline", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "top courtyard", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "top silkscreen", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "top silkscreen", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "top silkscreen", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "top silkscreen", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }
-            ], 
-            "footprint_index": 0, 
-            "footprint_pos": {
-                "flip": false, 
-                "rotation": 1.0, 
-                "side": "top", 
-                "x": 23000000, 
-                "y": 5000000
-            }, 
-            "gen_obj_attributes": [
-                {
-                    "attributes": {
-                        "attached_layers": "top solder mask,top paste,top copper", 
-                        "height": "335831", 
-                        "radius": "0", 
-                        "shape": "rectangle", 
-                        "spoke_width": "-1", 
-                        "type": "padstack", 
-                        "width": "900000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "rotation": 0.0, 
-                    "x": -1235355, 
-                    "y": 817915
-                }, 
-                {
-                    "attributes": {
-                        "attached_layers": "top solder mask,top paste,top copper", 
-                        "height": "335831", 
-                        "radius": "167915", 
-                        "shape": "rounded rectangle", 
-                        "spoke_width": "-1", 
-                        "type": "padstack", 
-                        "width": "900000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "rotation": 0.0, 
-                    "x": -1235355, 
-                    "y": 167915
-                }, 
-                {
-                    "attributes": {
-                        "attached_layers": "top solder mask,top paste,top copper", 
-                        "height": "335831", 
-                        "radius": "167915", 
-                        "shape": "rounded rectangle", 
-                        "spoke_width": "-1", 
-                        "type": "padstack", 
-                        "width": "900000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "rotation": 0.0, 
-                    "x": -1235355, 
-                    "y": -482085
-                }, 
-                {
-                    "attributes": {
-                        "attached_layers": "top solder mask,top paste,top copper", 
-                        "height": "335831", 
-                        "radius": "167915", 
-                        "shape": "rounded rectangle", 
-                        "spoke_width": "-1", 
-                        "type": "padstack", 
-                        "width": "900000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "rotation": 0.0, 
-                    "x": 335355, 
-                    "y": -482085
-                }, 
-                {
-                    "attributes": {
-                        "attached_layers": "top solder mask,top paste,top copper", 
-                        "height": "335831", 
-                        "radius": "167915", 
-                        "shape": "rounded rectangle", 
-                        "spoke_width": "-1", 
-                        "type": "padstack", 
-                        "width": "900000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "rotation": 0.0, 
-                    "x": 335355, 
-                    "y": 167915
-                }, 
-                {
-                    "attributes": {
-                        "attached_layers": "top solder mask,top paste,top copper", 
-                        "height": "335831", 
-                        "radius": "167915", 
-                        "shape": "rounded rectangle", 
-                        "spoke_width": "-1", 
-                        "type": "padstack", 
-                        "width": "900000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "rotation": 0.0, 
-                    "x": 335355, 
-                    "y": 817915
-                }, 
-                {
-                    "attributes": {
-                        "type": "center cross", 
-                        "width": "10000000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top component", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }
-            ], 
-            "instance_id": "74906858fadfa986", 
-            "library_id": "4c3b97fd024cbc1d", 
-            "symbol_attributes": [
-                {
-                    "annotations": [
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "TC7PZ05FU", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "rotation": 0.0, 
-                            "value": "TC7PZ05FU", 
-                            "visible": "true", 
-                            "x": 10, 
-                            "y": -50
-                        }, 
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "U4", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "rotation": 0.0, 
-                            "value": "U4", 
-                            "visible": "true", 
-                            "x": 0, 
-                            "y": 20
-                        }
-                    ], 
-                    "flip": "false", 
-                    "hidden": "false", 
-                    "rotation": 0.0, 
-                    "x": -150, 
-                    "y": 630
                 }
             ], 
             "symbol_index": 0
@@ -4102,16 +4038,16 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "TP3", 
+                                "text": "Test Point", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "rotation": 0.0, 
-                            "value": "TP3", 
+                            "value": "Test Point", 
                             "visible": "true", 
-                            "x": -25, 
-                            "y": 66
+                            "x": -35, 
+                            "y": 42
                         }, 
                         {
                             "flip": false, 
@@ -4123,16 +4059,16 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "Test Point", 
+                                "text": "TP3", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "rotation": 0.0, 
-                            "value": "Test Point", 
+                            "value": "TP3", 
                             "visible": "true", 
-                            "x": -35, 
-                            "y": 42
+                            "x": -25, 
+                            "y": 66
                         }
                     ], 
                     "flip": "false", 
@@ -8998,7 +8934,95 @@
             "threed_models": [], 
             "unverified_attributes": {}
         }, 
-        "4c3b97fd024cbc1d": {
+        "57226182e92f4941": {
+            "attributes": {
+                "_approved_alternate_part_number": "", 
+                "_category": "IC", 
+                "_datasheet": "", 
+                "_digikey_description": "IC ", 
+                "_digikey_part_number": "", 
+                "_is_preset_symbol_0_0": "no", 
+                "_lead_free": "Unknown", 
+                "_manufacturer": "Upverter", 
+                "_mouser_part_number": "", 
+                "_octopart_part_number": "", 
+                "_package": "", 
+                "_part_number": "bbq1475fz/p", 
+                "_prefix": "U", 
+                "_rohs": "Unknown", 
+                "_temperature_range_high": "", 
+                "_temperature_range_low": "", 
+                "_verified_attributes": "false", 
+                "_verified_geometry": "false", 
+                "_verified_pad_assignment": "false", 
+                "_verified_pin_names": "false"
+            }, 
+            "connections": {}, 
+            "footprints": [], 
+            "name": "No description", 
+            "symbols": [
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [], 
+                            "annotations": [
+                                {
+                                    "align": "left", 
+                                    "baseline": "alphabetic", 
+                                    "flip": false, 
+                                    "font_family": "sans-serif", 
+                                    "font_size": 10, 
+                                    "rotation": 0.0, 
+                                    "text": "(placeholder symbol)", 
+                                    "x": 10, 
+                                    "y": 11
+                                }, 
+                                {
+                                    "align": "left", 
+                                    "baseline": "alphabetic", 
+                                    "flip": false, 
+                                    "font_family": "sans-serif", 
+                                    "font_size": 10, 
+                                    "rotation": 0.0, 
+                                    "text": "{{_part_number}}", 
+                                    "x": 10, 
+                                    "y": 88
+                                }, 
+                                {
+                                    "align": "left", 
+                                    "baseline": "alphabetic", 
+                                    "flip": false, 
+                                    "font_family": "sans-serif", 
+                                    "font_size": 10, 
+                                    "rotation": 0.0, 
+                                    "text": "{{_manufacturer}}", 
+                                    "x": 9, 
+                                    "y": 73
+                                }
+                            ], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "height": 110, 
+                                    "is_centered": false, 
+                                    "line_width": 2, 
+                                    "rotation": 0.0, 
+                                    "styles": {}, 
+                                    "type": "rectangle", 
+                                    "width": 110, 
+                                    "x": 0, 
+                                    "y": 110
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }
+            ], 
+            "threed_models": [], 
+            "unverified_attributes": {}
+        }, 
+        "582b0c5d29e75b11": {
             "attributes": {
                 "_approved_alternate_part_number": "", 
                 "_capacitance": "", 
@@ -9010,20 +9034,20 @@
                 "_conn_3_type": "passive", 
                 "_conn_4_type": "passive", 
                 "_conn_5_type": "passive", 
-                "_datasheet": "https://toshiba.semicon-storage.com/info/docget.jsp?did=30530&prodName=TC7PZ05FU", 
-                "_digikey_description": "IC INVERTER 2CH 6SSOP", 
-                "_digikey_part_number": "TC7PZ05FULJ(CTDKR-ND", 
+                "_datasheet": "https://www.fairchildsemi.com/datasheets/NC/NC7WZ14.pdf", 
+                "_digikey_description": "IC INVERTER DUAL SCHMITT SC70-6", 
+                "_digikey_part_number": "NC7WZ14P6XCT-ND", 
                 "_footprint_parameters": "{\"fp_type\":\"SSOP\",\"params\":{\"N\":{\"nom\":6,\"long name\":\"Number of leads\",\"min\":null,\"max\":null,\"short name\":\"N\",\"type\":\"count\"},\"A\":{\"nom\":false,\"long name\":\"Height\",\"min\":false,\"max\":1000000,\"short name\":\"A\",\"type\":\"measurement\"},\"A1\":{\"nom\":false,\"long name\":\"Package clearance\",\"min\":false,\"max\":100000,\"short name\":\"A1\",\"type\":\"measurement\"},\"A2\":{\"nom\":false,\"long name\":\"Package height\",\"min\":false,\"max\":900000,\"short name\":\"A2\",\"type\":\"measurement\"},\"E\":{\"nom\":2100000,\"long name\":\"Width /w leads\",\"min\":false,\"max\":false,\"short name\":\"E\",\"type\":\"measurement\"},\"E1\":{\"nom\":1250000,\"long name\":\"Package width\",\"min\":false,\"max\":false,\"short name\":\"E1\",\"type\":\"measurement\"},\"D\":{\"nom\":2000000,\"long name\":\"Package length\",\"min\":1800000,\"max\":2200000,\"short name\":\"D\",\"type\":\"measurement\"},\"B\":{\"nom\":200000,\"long name\":\"Lead width\",\"min\":150000,\"max\":300000,\"short name\":\"B\",\"type\":\"measurement\"},\"C\":{\"nom\":150000,\"long name\":\"Lead thickness\",\"min\":false,\"max\":false,\"short name\":\"C\",\"type\":\"measurement\"},\"L\":{\"nom\":false,\"long name\":\"Lead foot length\",\"min\":550000,\"max\":950000,\"short name\":\"L\",\"type\":\"measurement\"},\"e\":{\"nom\":650000,\"long name\":\"Lead pitch\",\"min\":null,\"max\":null,\"short name\":\"e\",\"type\":\"measurement\"},\"PHI\":{\"nom\":false,\"long name\":\"Lead angle\",\"min\":0,\"max\":8,\"short name\":\"PHI\",\"type\":\"measurement\"},\"HT\":{\"default\":\"No\",\"long name\":\"Thermal pad\",\"type\":\"multichoiceparent\",\"short name\":\"HT\",\"children\":[]},\"offset x\":{\"nom\":0,\"long name\":\"X Center offset\",\"min\":null,\"max\":null,\"short name\":\"offset x\",\"type\":\"measurement\"},\"offset y\":{\"nom\":0,\"long name\":\"Y Center offset\",\"min\":null,\"max\":null,\"short name\":\"offset y\",\"type\":\"measurement\"},\"LS\":{\"default\":\"Rounded rectangle\",\"long name\":\"Land shape\",\"type\":\"multichoice\",\"short name\":\"LS\"},\"LS1\":{\"default\":\"Rectangle\",\"long name\":\"Land shape (Pin 1)\",\"type\":\"multichoice\",\"short name\":\"LS1\"},\"solder toe\":{\"nom\":150000,\"long name\":\"Solder fillet (toe)\",\"min\":null,\"max\":null,\"short name\":\"solder toe\",\"type\":\"fixedmeasurement\"},\"solder heel\":{\"nom\":250000,\"long name\":\"Solder fillet (heel)\",\"min\":null,\"max\":null,\"short name\":\"solder heel\",\"type\":\"fixedmeasurement\"},\"solder side\":{\"nom\":10000,\"long name\":\"Solder fillet (side)\",\"min\":null,\"max\":null,\"short name\":\"solder side\",\"type\":\"fixedmeasurement\"},\"courtyard\":{\"nom\":100000,\"long name\":\"Courtyard\",\"min\":null,\"max\":null,\"short name\":\"courtyard\",\"type\":\"fixedmeasurement\"},\"SF\":{\"default\":\"C\",\"long name\":\"Packing level\",\"type\":\"multichoiceparent\",\"short name\":\"SF\",\"help\":\"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level\",\"children\":[\"solder toe\",\"solder heel\",\"solder side\",\"courtyard\"]}}}", 
                 "_inductance": "", 
                 "_ipc_land_pattern_name": "SOP65P210X100-6", 
                 "_is_preset_symbol_0_0": "no", 
                 "_lead_free": "Yes", 
-                "_manufacturer": "Toshiba Semiconductor and Storage", 
+                "_manufacturer": "ON Semiconductor", 
                 "_mfg_package_ident": "", 
                 "_mouser_part_number": "", 
                 "_octopart_part_number": "", 
-                "_package": "6SSOP", 
-                "_part_number": "TC7PZ05FU", 
+                "_package": "6-TSSOP", 
+                "_part_number": "NC7WZ14P6X", 
                 "_prefix": "U", 
                 "_resistance": "", 
                 "_rohs": "Yes", 
@@ -9034,7 +9058,7 @@
             "connections": {
                 "0": {
                     "connection_index": 0, 
-                    "name": "1A", 
+                    "name": "A1", 
                     "ref": "1"
                 }, 
                 "1": {
@@ -9044,12 +9068,12 @@
                 }, 
                 "2": {
                     "connection_index": 2, 
-                    "name": "2A", 
+                    "name": "A2", 
                     "ref": "3"
                 }, 
                 "3": {
                     "connection_index": 3, 
-                    "name": "2Y", 
+                    "name": "Y2", 
                     "ref": "4"
                 }, 
                 "4": {
@@ -9059,7 +9083,7 @@
                 }, 
                 "5": {
                     "connection_index": 5, 
-                    "name": "1Y", 
+                    "name": "Y1", 
                     "ref": "6"
                 }
             }, 
@@ -9308,7 +9332,7 @@
                         {
                             "attributes": {
                                 "attached_layers": "top solder mask,top paste,top copper", 
-                                "height": "335831", 
+                                "height": "400000", 
                                 "radius": "0", 
                                 "shape": "rectangle", 
                                 "spoke_width": "-1", 
@@ -9322,12 +9346,12 @@
                             "layer": "top copper", 
                             "rotation": 0.0, 
                             "x": -1235355, 
-                            "y": 817915
+                            "y": 849999
                         }, 
                         {
                             "attributes": {
                                 "attached_layers": "top solder mask,top paste,top copper", 
-                                "height": "335831", 
+                                "height": "400000", 
                                 "radius": "167915", 
                                 "shape": "rounded rectangle", 
                                 "spoke_width": "-1", 
@@ -9341,12 +9365,12 @@
                             "layer": "top copper", 
                             "rotation": 0.0, 
                             "x": -1235355, 
-                            "y": 167915
+                            "y": 200000
                         }, 
                         {
                             "attributes": {
                                 "attached_layers": "top solder mask,top paste,top copper", 
-                                "height": "335831", 
+                                "height": "400000", 
                                 "radius": "167915", 
                                 "shape": "rounded rectangle", 
                                 "spoke_width": "-1", 
@@ -9360,12 +9384,12 @@
                             "layer": "top copper", 
                             "rotation": 0.0, 
                             "x": -1235355, 
-                            "y": -482085
+                            "y": -450000
                         }, 
                         {
                             "attributes": {
                                 "attached_layers": "top solder mask,top paste,top copper", 
-                                "height": "335831", 
+                                "height": "400000", 
                                 "radius": "167915", 
                                 "shape": "rounded rectangle", 
                                 "spoke_width": "-1", 
@@ -9379,12 +9403,12 @@
                             "layer": "top copper", 
                             "rotation": 0.0, 
                             "x": 335355, 
-                            "y": -482085
+                            "y": -450000
                         }, 
                         {
                             "attributes": {
                                 "attached_layers": "top solder mask,top paste,top copper", 
-                                "height": "335831", 
+                                "height": "400000", 
                                 "radius": "167915", 
                                 "shape": "rounded rectangle", 
                                 "spoke_width": "-1", 
@@ -9398,12 +9422,12 @@
                             "layer": "top copper", 
                             "rotation": 0.0, 
                             "x": 335355, 
-                            "y": 167915
+                            "y": 200000
                         }, 
                         {
                             "attributes": {
                                 "attached_layers": "top solder mask,top paste,top copper", 
-                                "height": "335831", 
+                                "height": "400000", 
                                 "radius": "167915", 
                                 "shape": "rounded rectangle", 
                                 "spoke_width": "-1", 
@@ -9417,7 +9441,7 @@
                             "layer": "top copper", 
                             "rotation": 0.0, 
                             "x": 335355, 
-                            "y": 817915
+                            "y": 849999
                         }, 
                         {
                             "attributes": {
@@ -9434,7 +9458,7 @@
                     ]
                 }
             ], 
-            "name": "Dual Inverter (Open Drain)", 
+            "name": "Inverter IC 2 Channel (Schmitt Trigger)", 
             "symbols": [
                 {
                     "bodies": [
@@ -9448,7 +9472,7 @@
                                         ]
                                     ], 
                                     "flip": false, 
-                                    "name": "1A", 
+                                    "name": "A1", 
                                     "p1": {
                                         "x": 0, 
                                         "y": -10
@@ -9470,7 +9494,7 @@
                                         ]
                                     ], 
                                     "flip": false, 
-                                    "name": "2A", 
+                                    "name": "A2", 
                                     "p1": {
                                         "x": 0, 
                                         "y": -20
@@ -9514,7 +9538,7 @@
                                         ]
                                     ], 
                                     "flip": false, 
-                                    "name": "1Y", 
+                                    "name": "Y1", 
                                     "p1": {
                                         "x": 70, 
                                         "y": -10
@@ -9536,7 +9560,7 @@
                                         ]
                                     ], 
                                     "flip": false, 
-                                    "name": "2Y", 
+                                    "name": "Y2", 
                                     "p1": {
                                         "x": 70, 
                                         "y": -20
@@ -9618,32 +9642,6 @@
                                     "font_size": 10, 
                                     "rotation": 0.0, 
                                     "styles": {}, 
-                                    "text": "1A", 
-                                    "type": "label", 
-                                    "x": 2, 
-                                    "y": -10
-                                }, 
-                                {
-                                    "align": "left", 
-                                    "baseline": "middle", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "text": "2A", 
-                                    "type": "label", 
-                                    "x": 2, 
-                                    "y": -20
-                                }, 
-                                {
-                                    "align": "left", 
-                                    "baseline": "middle", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
                                     "text": "GND", 
                                     "type": "label", 
                                     "x": 2, 
@@ -9657,10 +9655,36 @@
                                     "font_size": 10, 
                                     "rotation": 0.0, 
                                     "styles": {}, 
-                                    "text": "1Y", 
+                                    "text": "VCC", 
                                     "type": "label", 
                                     "x": 68, 
+                                    "y": 0
+                                }, 
+                                {
+                                    "align": "left", 
+                                    "baseline": "middle", 
+                                    "flip": false, 
+                                    "font_family": "sans-serif", 
+                                    "font_size": 10, 
+                                    "rotation": 0.0, 
+                                    "styles": {}, 
+                                    "text": "A1", 
+                                    "type": "label", 
+                                    "x": 2, 
                                     "y": -10
+                                }, 
+                                {
+                                    "align": "left", 
+                                    "baseline": "middle", 
+                                    "flip": false, 
+                                    "font_family": "sans-serif", 
+                                    "font_size": 10, 
+                                    "rotation": 0.0, 
+                                    "styles": {}, 
+                                    "text": "A2", 
+                                    "type": "label", 
+                                    "x": 2, 
+                                    "y": -20
                                 }, 
                                 {
                                     "align": "right", 
@@ -9670,7 +9694,7 @@
                                     "font_size": 10, 
                                     "rotation": 0.0, 
                                     "styles": {}, 
-                                    "text": "2Y", 
+                                    "text": "Y2", 
                                     "type": "label", 
                                     "x": 68, 
                                     "y": -20
@@ -9683,98 +9707,10 @@
                                     "font_size": 10, 
                                     "rotation": 0.0, 
                                     "styles": {}, 
-                                    "text": "VCC", 
+                                    "text": "Y1", 
                                     "type": "label", 
                                     "x": 68, 
-                                    "y": 0
-                                }
-                            ], 
-                            "styles": {}
-                        }
-                    ]
-                }
-            ], 
-            "threed_models": [], 
-            "unverified_attributes": {}
-        }, 
-        "57226182e92f4941": {
-            "attributes": {
-                "_approved_alternate_part_number": "", 
-                "_category": "IC", 
-                "_datasheet": "", 
-                "_digikey_description": "IC ", 
-                "_digikey_part_number": "", 
-                "_is_preset_symbol_0_0": "no", 
-                "_lead_free": "Unknown", 
-                "_manufacturer": "Upverter", 
-                "_mouser_part_number": "", 
-                "_octopart_part_number": "", 
-                "_package": "", 
-                "_part_number": "bbq1475fz/p", 
-                "_prefix": "U", 
-                "_rohs": "Unknown", 
-                "_temperature_range_high": "", 
-                "_temperature_range_low": "", 
-                "_verified_attributes": "false", 
-                "_verified_geometry": "false", 
-                "_verified_pad_assignment": "false", 
-                "_verified_pin_names": "false"
-            }, 
-            "connections": {}, 
-            "footprints": [], 
-            "name": "No description", 
-            "symbols": [
-                {
-                    "bodies": [
-                        {
-                            "action_regions": [], 
-                            "annotations": [
-                                {
-                                    "align": "left", 
-                                    "baseline": "alphabetic", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "text": "(placeholder symbol)", 
-                                    "x": 10, 
-                                    "y": 11
-                                }, 
-                                {
-                                    "align": "left", 
-                                    "baseline": "alphabetic", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "text": "{{_part_number}}", 
-                                    "x": 10, 
-                                    "y": 88
-                                }, 
-                                {
-                                    "align": "left", 
-                                    "baseline": "alphabetic", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "text": "{{_manufacturer}}", 
-                                    "x": 9, 
-                                    "y": 73
-                                }
-                            ], 
-                            "shapes": [
-                                {
-                                    "flip": false, 
-                                    "height": 110, 
-                                    "is_centered": false, 
-                                    "line_width": 2, 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "type": "rectangle", 
-                                    "width": 110, 
-                                    "x": 0, 
-                                    "y": 110
+                                    "y": -10
                                 }
                             ], 
                             "styles": {}
@@ -10351,290 +10287,6 @@
                                     "styles": {}, 
                                     "type": "line", 
                                     "width": 2
-                                }
-                            ], 
-                            "styles": {}
-                        }
-                    ]
-                }
-            ], 
-            "threed_models": [], 
-            "unverified_attributes": {}
-        }, 
-        "64ede35607d1c554": {
-            "attributes": {
-                "_capacitance": "", 
-                "_category": "IC", 
-                "_centroid_not_specified": "", 
-                "_conn_0_type": "passive", 
-                "_conn_1_type": "passive", 
-                "_conn_2_type": "passive", 
-                "_conn_3_type": "passive", 
-                "_conn_4_type": "passive", 
-                "_datasheet": "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G79.pdf", 
-                "_digikey_description": "IC D-TYPE POS TRG SNGL 5TSSOP", 
-                "_digikey_part_number": "1727-6019-1-ND", 
-                "_inductance": "", 
-                "_is_preset_symbol_0_0": "no", 
-                "_lead_free": "Yes", 
-                "_manufacturer": "Nexperia USA Inc", 
-                "_mouser_part_number": "771-74AHC1G79GW-G", 
-                "_octopart_part_number": "", 
-                "_package": "5TSSOP", 
-                "_part_number": "74AHC1G79GW,125", 
-                "_prefix": "U", 
-                "_resistance": "", 
-                "_rohs": "Yes", 
-                "_temperature_range_high": "125\u00b0C", 
-                "_temperature_range_low": "-40\u00b0C", 
-                "_voltage": ""
-            }, 
-            "connections": {
-                "0": {
-                    "connection_index": 0, 
-                    "name": "D", 
-                    "ref": "1"
-                }, 
-                "1": {
-                    "connection_index": 1, 
-                    "name": "CP", 
-                    "ref": "2"
-                }, 
-                "2": {
-                    "connection_index": 2, 
-                    "name": "GND", 
-                    "ref": "3"
-                }, 
-                "3": {
-                    "connection_index": 3, 
-                    "name": "Q", 
-                    "ref": "4"
-                }, 
-                "4": {
-                    "connection_index": 4, 
-                    "name": "VCC", 
-                    "ref": "5"
-                }
-            }, 
-            "footprints": [], 
-            "name": "Single D-type flip-flop; positive-edge trigger", 
-            "symbols": [
-                {
-                    "bodies": [
-                        {
-                            "action_regions": [
-                                {
-                                    "attributes": {}, 
-                                    "connections": [
-                                        [
-                                            1
-                                        ]
-                                    ], 
-                                    "flip": false, 
-                                    "name": "CP", 
-                                    "p1": {
-                                        "x": 10, 
-                                        "y": -20
-                                    }, 
-                                    "p2": {
-                                        "x": 0, 
-                                        "y": -20
-                                    }, 
-                                    "ref": "2", 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "width": 2
-                                }, 
-                                {
-                                    "attributes": {}, 
-                                    "connections": [
-                                        [
-                                            0
-                                        ]
-                                    ], 
-                                    "flip": false, 
-                                    "name": "D", 
-                                    "p1": {
-                                        "x": 10, 
-                                        "y": -10
-                                    }, 
-                                    "p2": {
-                                        "x": 0, 
-                                        "y": -10
-                                    }, 
-                                    "ref": "1", 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "width": 2
-                                }, 
-                                {
-                                    "attributes": {}, 
-                                    "connections": [
-                                        [
-                                            2
-                                        ]
-                                    ], 
-                                    "flip": false, 
-                                    "name": "GND", 
-                                    "p1": {
-                                        "x": 10, 
-                                        "y": -30
-                                    }, 
-                                    "p2": {
-                                        "x": 0, 
-                                        "y": -30
-                                    }, 
-                                    "ref": "3", 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "width": 2
-                                }, 
-                                {
-                                    "attributes": {}, 
-                                    "connections": [
-                                        [
-                                            3
-                                        ]
-                                    ], 
-                                    "flip": false, 
-                                    "name": "Q", 
-                                    "p1": {
-                                        "x": 80, 
-                                        "y": -30
-                                    }, 
-                                    "p2": {
-                                        "x": 90, 
-                                        "y": -30
-                                    }, 
-                                    "ref": "4", 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "width": 2
-                                }, 
-                                {
-                                    "attributes": {}, 
-                                    "connections": [
-                                        [
-                                            4
-                                        ]
-                                    ], 
-                                    "flip": false, 
-                                    "name": "VCC", 
-                                    "p1": {
-                                        "x": 80, 
-                                        "y": -10
-                                    }, 
-                                    "p2": {
-                                        "x": 90, 
-                                        "y": -10
-                                    }, 
-                                    "ref": "5", 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "width": 2
-                                }
-                            ], 
-                            "annotations": [
-                                {
-                                    "align": "left", 
-                                    "baseline": "alphabetic", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "text": "{{refdes}}", 
-                                    "x": 40, 
-                                    "y": 10
-                                }, 
-                                {
-                                    "align": "left", 
-                                    "baseline": "alphabetic", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "text": "{{_part_number}}", 
-                                    "x": 0, 
-                                    "y": -50
-                                }
-                            ], 
-                            "shapes": [
-                                {
-                                    "flip": false, 
-                                    "height": 40, 
-                                    "is_centered": false, 
-                                    "line_width": 1, 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "type": "rectangle", 
-                                    "width": 70, 
-                                    "x": 10, 
-                                    "y": 0
-                                }, 
-                                {
-                                    "align": "left", 
-                                    "baseline": "middle", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "text": "CP", 
-                                    "type": "label", 
-                                    "x": 12, 
-                                    "y": -20
-                                }, 
-                                {
-                                    "align": "left", 
-                                    "baseline": "middle", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "text": "D", 
-                                    "type": "label", 
-                                    "x": 12, 
-                                    "y": -10
-                                }, 
-                                {
-                                    "align": "left", 
-                                    "baseline": "middle", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "text": "GND", 
-                                    "type": "label", 
-                                    "x": 12, 
-                                    "y": -30
-                                }, 
-                                {
-                                    "align": "right", 
-                                    "baseline": "middle", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "text": "Q", 
-                                    "type": "label", 
-                                    "x": 78, 
-                                    "y": -30
-                                }, 
-                                {
-                                    "align": "right", 
-                                    "baseline": "middle", 
-                                    "flip": false, 
-                                    "font_family": "sans-serif", 
-                                    "font_size": 10, 
-                                    "rotation": 0.0, 
-                                    "styles": {}, 
-                                    "text": "VCC", 
-                                    "type": "label", 
-                                    "x": 78, 
-                                    "y": -10
                                 }
                             ], 
                             "styles": {}
@@ -14616,27 +14268,6 @@
                     "font_size": 10, 
                     "rotation": 0.0, 
                     "styles": {}, 
-                    "text": "TODO: Do I want the LEDs driven directly off the AND gates (8ma limit) or should I put a FET in between?", 
-                    "type": "label", 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "rotation": 0.0, 
-                "value": "TODO: Do I want the LEDs driven directly off the AND gates (8ma limit) or should I put a FET in between?", 
-                "visible": "true", 
-                "x": -443, 
-                "y": 233
-            }, 
-            {
-                "flip": false, 
-                "label": {
-                    "align": "left", 
-                    "baseline": "alphabetic", 
-                    "flip": false, 
-                    "font_family": "sans-serif", 
-                    "font_size": 10, 
-                    "rotation": 0.0, 
-                    "styles": {}, 
                     "text": "Green LED", 
                     "type": "label", 
                     "x": 0, 
@@ -14679,6 +14310,27 @@
                     "font_size": 10, 
                     "rotation": 0.0, 
                     "styles": {}, 
+                    "text": "TODO: Do I want the LEDs driven directly off the AND gates (8ma limit) or should I put a FET in between?", 
+                    "type": "label", 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                "rotation": 0.0, 
+                "value": "TODO: Do I want the LEDs driven directly off the AND gates (8ma limit) or should I put a FET in between?", 
+                "visible": "true", 
+                "x": -443, 
+                "y": 233
+            }, 
+            {
+                "flip": false, 
+                "label": {
+                    "align": "left", 
+                    "baseline": "alphabetic", 
+                    "flip": false, 
+                    "font_family": "sans-serif", 
+                    "font_size": 10, 
+                    "rotation": 0.0, 
+                    "styles": {}, 
                     "text": "TODO: Choose resistor values", 
                     "type": "label", 
                     "x": 0, 
@@ -14694,7 +14346,7 @@
         "attributes": {
             "_battery_counter": "1", 
             "_diode_counter": "3", 
-            "_integrated circuit_counter": "36", 
+            "_integrated circuit_counter": "37", 
             "_resistor_counter": "6", 
             "_test point_counter": "3"
         }, 
@@ -14706,7 +14358,7 @@
             "name": "Sometimes red, sometimes blue", 
             "owner": "Trebuchetindustries", 
             "slug": "Sometimes-red-sometimes-blue", 
-            "updated_timestamp": 1513954959
+            "updated_timestamp": 1517666841
         }
     }, 
     "layer_options": [
@@ -14783,6 +14435,25 @@
             "rotation": 0.0, 
             "x": 12025000, 
             "y": 8875000
+        }, 
+        {
+            "attributes": {
+                "attached_layers": "top copper,bottom copper", 
+                "end_layer": "bottom copper", 
+                "internal_diameter": "330200", 
+                "plating_diameter": "688340", 
+                "solder_mask_expansion": "0", 
+                "start_layer": "top copper", 
+                "tenting_bottom": "0", 
+                "tenting_top": "0", 
+                "type": "via"
+            }, 
+            "connection_indexes": null, 
+            "flip": false, 
+            "layer": "via", 
+            "rotation": 0.0, 
+            "x": 2200000, 
+            "y": 8000000
         }, 
         {
             "attributes": {
@@ -15057,25 +14728,6 @@
             "flip": false, 
             "layer": "via", 
             "rotation": 0.0, 
-            "x": 2200000, 
-            "y": 8000000
-        }, 
-        {
-            "attributes": {
-                "attached_layers": "top copper,bottom copper", 
-                "end_layer": "bottom copper", 
-                "internal_diameter": "330200", 
-                "plating_diameter": "688340", 
-                "solder_mask_expansion": "0", 
-                "start_layer": "top copper", 
-                "tenting_bottom": "0", 
-                "tenting_top": "0", 
-                "type": "via"
-            }, 
-            "connection_indexes": null, 
-            "flip": false, 
-            "layer": "via", 
-            "rotation": 0.0, 
             "x": 14200000, 
             "y": 4850000
         }, 
@@ -15165,64 +14817,19 @@
         {
             "annotations": [], 
             "attributes": {}, 
-            "net_id": "fd960c1808fb75b8", 
+            "net_id": "c5e6ba719b6edc0b", 
             "net_type": "nets", 
             "points": [
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "e2443c8f3a6dad20", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "b8a0c8d629316ab6"
-                    ], 
-                    "point_id": "b46ab573d8406a89", 
-                    "x": -170, 
-                    "y": 560
-                }, 
                 {
                     "connected_action_regions": [], 
                     "connected_points": [
-                        "b46ab573d8406a89", 
-                        "f15c71bdf98a7587"
+                        "88b2d98dee72f0f9", 
+                        "a34017532b482d3e"
                     ], 
-                    "point_id": "b8a0c8d629316ab6", 
-                    "x": -170, 
-                    "y": 600
+                    "point_id": "2c3f46267f5f0687", 
+                    "x": -690, 
+                    "y": 40
                 }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 2, 
-                            "body_index": 0, 
-                            "instance_id": "74906858fadfa986", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "b8a0c8d629316ab6"
-                    ], 
-                    "point_id": "f15c71bdf98a7587", 
-                    "x": -160, 
-                    "y": 600
-                }
-            ], 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
-            "attributes": {}, 
-            "net_id": "82f55897de465708", 
-            "net_type": "nets", 
-            "points": [
                 {
                     "connected_action_regions": [
                         {
@@ -15241,16 +14848,6 @@
                     "y": 50
                 }, 
                 {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "88b2d98dee72f0f9", 
-                        "a34017532b482d3e"
-                    ], 
-                    "point_id": "6b2ca4c03a778d84", 
-                    "x": -690, 
-                    "y": 40
-                }, 
-                {
                     "connected_action_regions": [
                         {
                             "action_region_index": 2, 
@@ -15261,7 +14858,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "6b2ca4c03a778d84"
+                        "2c3f46267f5f0687"
                     ], 
                     "point_id": "88b2d98dee72f0f9", 
                     "x": -670, 
@@ -15270,8 +14867,8 @@
                 {
                     "connected_action_regions": [], 
                     "connected_points": [
+                        "2c3f46267f5f0687", 
                         "350b4873509ff9eb", 
-                        "6b2ca4c03a778d84", 
                         "f7207afa7194fea0"
                     ], 
                     "point_id": "a34017532b482d3e", 
@@ -15339,6 +14936,73 @@
                     "point_id": "6cc9ed6061e680b8", 
                     "x": -330, 
                     "y": 390
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {
+                "name": "flip-flop-out"
+            }, 
+            "net_id": "4d413b42b3468071", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "e1187e58e9a70491", 
+                        "fa8ecde7c35c0d32"
+                    ], 
+                    "point_id": "8b8ba0eaf3890612", 
+                    "x": -500, 
+                    "y": 40
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 1, 
+                            "body_index": 0, 
+                            "instance_id": "f3851719753a70e0", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "e1187e58e9a70491"
+                    ], 
+                    "point_id": "dd5c28176a348fc0", 
+                    "x": -420, 
+                    "y": 80
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "8b8ba0eaf3890612", 
+                        "dd5c28176a348fc0"
+                    ], 
+                    "point_id": "e1187e58e9a70491", 
+                    "x": -500, 
+                    "y": 80
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 5, 
+                            "body_index": 0, 
+                            "instance_id": "3c6ee2f324f7420e", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "8b8ba0eaf3890612"
+                    ], 
+                    "point_id": "fa8ecde7c35c0d32", 
+                    "x": -580, 
+                    "y": 40
                 }
             ], 
             "signals": [
@@ -15514,61 +15178,6 @@
         {
             "annotations": [], 
             "attributes": {}, 
-            "net_id": "87f6506bd4e6a2e2", 
-            "net_type": "nets", 
-            "points": [
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "7e954a65e1229fe6", 
-                        "d625f7061994e3cb"
-                    ], 
-                    "point_id": "2f46ed082c50decf", 
-                    "x": -550, 
-                    "y": 50
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "3760a0c1834b91c4", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "2f46ed082c50decf"
-                    ], 
-                    "point_id": "7e954a65e1229fe6", 
-                    "x": -550, 
-                    "y": 80
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 6, 
-                            "body_index": 0, 
-                            "instance_id": "3c6ee2f324f7420e", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "2f46ed082c50decf"
-                    ], 
-                    "point_id": "d625f7061994e3cb", 
-                    "x": -580, 
-                    "y": 50
-                }
-            ], 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
-            "attributes": {}, 
             "net_id": "fbec02cf98174213", 
             "net_type": "nets", 
             "points": [
@@ -15623,87 +15232,10 @@
         }, 
         {
             "annotations": [], 
-            "attributes": {
-                "name": "flip-flop-out"
-            }, 
-            "net_id": "776df350f988d6a7", 
-            "net_type": "nets", 
-            "points": [
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "5aa80e1dd18538ae", 
-                        "dd5c28176a348fc0"
-                    ], 
-                    "point_id": "0a1718bd81656cfb", 
-                    "x": -500, 
-                    "y": 80
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "0a1718bd81656cfb", 
-                        "fa8ecde7c35c0d32"
-                    ], 
-                    "point_id": "5aa80e1dd18538ae", 
-                    "x": -500, 
-                    "y": 40
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 1, 
-                            "body_index": 0, 
-                            "instance_id": "f3851719753a70e0", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "0a1718bd81656cfb"
-                    ], 
-                    "point_id": "dd5c28176a348fc0", 
-                    "x": -420, 
-                    "y": 80
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 5, 
-                            "body_index": 0, 
-                            "instance_id": "3c6ee2f324f7420e", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "5aa80e1dd18538ae"
-                    ], 
-                    "point_id": "fa8ecde7c35c0d32", 
-                    "x": -580, 
-                    "y": 40
-                }
-            ], 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
             "attributes": {}, 
-            "net_id": "1f212a00a2f4db12", 
+            "net_id": "297f1a47f800fe9b", 
             "net_type": "nets", 
             "points": [
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "967eec0bb5422e8a", 
-                        "bf01f64c4d42d011"
-                    ], 
-                    "point_id": "365e30475af42589", 
-                    "x": -690, 
-                    "y": 30
-                }, 
                 {
                     "connected_action_regions": [
                         {
@@ -15715,7 +15247,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "365e30475af42589"
+                        "bf01f64c4d42d011"
                     ], 
                     "point_id": "967eec0bb5422e8a", 
                     "x": -670, 
@@ -15732,7 +15264,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "365e30475af42589"
+                        "967eec0bb5422e8a"
                     ], 
                     "point_id": "bf01f64c4d42d011", 
                     "x": -700, 
@@ -16088,91 +15620,6 @@
         {
             "annotations": [], 
             "attributes": {}, 
-            "net_id": "4daf3c1e589babf3", 
-            "net_type": "nets", 
-            "points": [
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 1, 
-                            "body_index": 0, 
-                            "instance_id": "74906858fadfa986", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "b79783849bc6e6e0"
-                    ], 
-                    "point_id": "4f78016105fa3680", 
-                    "x": -160, 
-                    "y": 610
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "b6903c2c52e7b295", 
-                        "d09442fc75046359"
-                    ], 
-                    "point_id": "69578f30ec475aa6", 
-                    "x": -40, 
-                    "y": 620
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "69578f30ec475aa6", 
-                        "ba134f1b0d03f0f9"
-                    ], 
-                    "point_id": "b6903c2c52e7b295", 
-                    "x": -40, 
-                    "y": 680
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "4f78016105fa3680", 
-                        "ba134f1b0d03f0f9"
-                    ], 
-                    "point_id": "b79783849bc6e6e0", 
-                    "x": -170, 
-                    "y": 610
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "b6903c2c52e7b295", 
-                        "b79783849bc6e6e0"
-                    ], 
-                    "point_id": "ba134f1b0d03f0f9", 
-                    "x": -170, 
-                    "y": 680
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 3, 
-                            "body_index": 0, 
-                            "instance_id": "74906858fadfa986", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "69578f30ec475aa6"
-                    ], 
-                    "point_id": "d09442fc75046359", 
-                    "x": -70, 
-                    "y": 620
-                }
-            ], 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
-            "attributes": {}, 
             "net_id": "aa05b665a5d40a8e", 
             "net_type": "nets", 
             "points": [
@@ -16192,7 +15639,7 @@
                         {
                             "action_region_index": 4, 
                             "body_index": 0, 
-                            "instance_id": "74906858fadfa986", 
+                            "instance_id": "c64be6916acd128f", 
                             "order": 0, 
                             "signal": ""
                         }
@@ -16366,61 +15813,6 @@
         {
             "annotations": [], 
             "attributes": {}, 
-            "net_id": "97c47bdde46a7fc6", 
-            "net_type": "nets", 
-            "points": [
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "545a0bf430734dad", 
-                        "f3f3f1882f6a0f4e"
-                    ], 
-                    "point_id": "306d81a1fb733d25", 
-                    "x": -20, 
-                    "y": 630
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 5, 
-                            "body_index": 0, 
-                            "instance_id": "74906858fadfa986", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "306d81a1fb733d25"
-                    ], 
-                    "point_id": "545a0bf430734dad", 
-                    "x": -70, 
-                    "y": 630
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "9a842b74a61d6a94", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "306d81a1fb733d25"
-                    ], 
-                    "point_id": "f3f3f1882f6a0f4e", 
-                    "x": -20, 
-                    "y": 670
-                }
-            ], 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
-            "attributes": {}, 
             "net_id": "31aea899e408af6a", 
             "net_type": "nets", 
             "points": [
@@ -16478,7 +15870,7 @@
             "attributes": {
                 "name": "flip-flop-out-inverted"
             }, 
-            "net_id": "61618dd8f5e98739", 
+            "net_id": "43e48db411331f0", 
             "net_type": "nets", 
             "points": [
                 {
@@ -16492,10 +15884,20 @@
                         }
                     ], 
                     "connected_points": [
-                        "a95fef951e8749bc"
+                        "34c3ee5074d9532a"
                     ], 
                     "point_id": "1f963191360501fd", 
                     "x": -420, 
+                    "y": -50
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "1f963191360501fd", 
+                        "66899814cdf40c35"
+                    ], 
+                    "point_id": "34c3ee5074d9532a", 
+                    "x": -500, 
                     "y": -50
                 }, 
                 {
@@ -16509,7 +15911,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "9e4a5cd21350a06a"
+                        "66899814cdf40c35"
                     ], 
                     "point_id": "49e20f0ece3b6f12", 
                     "x": -580, 
@@ -16518,22 +15920,67 @@
                 {
                     "connected_action_regions": [], 
                     "connected_points": [
-                        "49e20f0ece3b6f12", 
-                        "a95fef951e8749bc"
+                        "34c3ee5074d9532a", 
+                        "49e20f0ece3b6f12"
                     ], 
-                    "point_id": "9e4a5cd21350a06a", 
+                    "point_id": "66899814cdf40c35", 
                     "x": -500, 
                     "y": 30
-                }, 
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "14c7fba71a76c7b", 
+            "net_type": "nets", 
+            "points": [
                 {
                     "connected_action_regions": [], 
                     "connected_points": [
-                        "1f963191360501fd", 
-                        "9e4a5cd21350a06a"
+                        "b46ab573d8406a89", 
+                        "f15c71bdf98a7587"
                     ], 
-                    "point_id": "a95fef951e8749bc", 
-                    "x": -500, 
-                    "y": -50
+                    "point_id": "447abb74506d7375", 
+                    "x": -170, 
+                    "y": 600
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "e2443c8f3a6dad20", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "447abb74506d7375"
+                    ], 
+                    "point_id": "b46ab573d8406a89", 
+                    "x": -170, 
+                    "y": 560
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 2, 
+                            "body_index": 0, 
+                            "instance_id": "c64be6916acd128f", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "447abb74506d7375"
+                    ], 
+                    "point_id": "f15c71bdf98a7587", 
+                    "x": -160, 
+                    "y": 600
                 }
             ], 
             "signals": [
@@ -16752,7 +16199,7 @@
                         {
                             "action_region_index": 0, 
                             "body_index": 0, 
-                            "instance_id": "74906858fadfa986", 
+                            "instance_id": "c64be6916acd128f", 
                             "order": 0, 
                             "signal": ""
                         }
@@ -16774,61 +16221,6 @@
                     "point_id": "d1c8c695300d03ce", 
                     "x": -250, 
                     "y": 620
-                }
-            ], 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
-            "attributes": {}, 
-            "net_id": "be5d7d93fd6aa48", 
-            "net_type": "nets", 
-            "points": [
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "d13bc6a094ae0a97", 
-                        "dadae1d3d15c8b69"
-                    ], 
-                    "point_id": "0004f0aa7a242bb6", 
-                    "x": -250, 
-                    "y": 490
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "8e14199b85c15e7f", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "0004f0aa7a242bb6"
-                    ], 
-                    "point_id": "d13bc6a094ae0a97", 
-                    "x": -250, 
-                    "y": 540
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 1, 
-                            "body_index": 0, 
-                            "instance_id": "1ab0cf254183e8e1", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "0004f0aa7a242bb6"
-                    ], 
-                    "point_id": "dadae1d3d15c8b69", 
-                    "x": -270, 
-                    "y": 490
                 }
             ], 
             "signals": [
@@ -16893,6 +16285,61 @@
         {
             "annotations": [], 
             "attributes": {}, 
+            "net_id": "be5d7d93fd6aa48", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "d13bc6a094ae0a97", 
+                        "dadae1d3d15c8b69"
+                    ], 
+                    "point_id": "0004f0aa7a242bb6", 
+                    "x": -250, 
+                    "y": 490
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "8e14199b85c15e7f", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "0004f0aa7a242bb6"
+                    ], 
+                    "point_id": "d13bc6a094ae0a97", 
+                    "x": -250, 
+                    "y": 540
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 1, 
+                            "body_index": 0, 
+                            "instance_id": "1ab0cf254183e8e1", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "0004f0aa7a242bb6"
+                    ], 
+                    "point_id": "dadae1d3d15c8b69", 
+                    "x": -270, 
+                    "y": 490
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
             "net_id": "76e6454fc97d29a6", 
             "net_type": "nets", 
             "points": [
@@ -16929,6 +16376,91 @@
                     "point_id": "7c4bfd0ddeb03396", 
                     "x": -670, 
                     "y": 20
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "b2987dda1db92b1c", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "c239667279895c74", 
+                        "d09442fc75046359"
+                    ], 
+                    "point_id": "1a0d343a65278e49", 
+                    "x": -30, 
+                    "y": 620
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 1, 
+                            "body_index": 0, 
+                            "instance_id": "c64be6916acd128f", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "59ab911113dfb5a9"
+                    ], 
+                    "point_id": "4f78016105fa3680", 
+                    "x": -160, 
+                    "y": 610
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "4f78016105fa3680", 
+                        "acebfd1e62361951"
+                    ], 
+                    "point_id": "59ab911113dfb5a9", 
+                    "x": -170, 
+                    "y": 610
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "59ab911113dfb5a9", 
+                        "c239667279895c74"
+                    ], 
+                    "point_id": "acebfd1e62361951", 
+                    "x": -170, 
+                    "y": 680
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "1a0d343a65278e49", 
+                        "acebfd1e62361951"
+                    ], 
+                    "point_id": "c239667279895c74", 
+                    "x": -30, 
+                    "y": 680
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 3, 
+                            "body_index": 0, 
+                            "instance_id": "c64be6916acd128f", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "1a0d343a65278e49"
+                    ], 
+                    "point_id": "d09442fc75046359", 
+                    "x": -70, 
+                    "y": 620
                 }
             ], 
             "signals": [
@@ -17003,7 +16535,7 @@
         {
             "annotations": [], 
             "attributes": {}, 
-            "net_id": "c888492299c12e6b", 
+            "net_id": "e411b6fea41c51f3", 
             "net_type": "nets", 
             "points": [
                 {
@@ -17017,7 +16549,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "caea0068bd9bc121"
+                        "e673ffb48046beb9"
                     ], 
                     "point_id": "68686278aedb2d62", 
                     "x": -580, 
@@ -17034,7 +16566,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "caea0068bd9bc121"
+                        "e673ffb48046beb9"
                     ], 
                     "point_id": "6a0a2b328a81c228", 
                     "x": -550, 
@@ -17046,9 +16578,64 @@
                         "68686278aedb2d62", 
                         "6a0a2b328a81c228"
                     ], 
-                    "point_id": "caea0068bd9bc121", 
+                    "point_id": "e673ffb48046beb9", 
                     "x": -550, 
                     "y": 20
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "8efc15b7f51675f1", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "7e954a65e1229fe6", 
+                        "d625f7061994e3cb"
+                    ], 
+                    "point_id": "264ca8d40da009dc", 
+                    "x": -550, 
+                    "y": 50
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "3760a0c1834b91c4", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "264ca8d40da009dc"
+                    ], 
+                    "point_id": "7e954a65e1229fe6", 
+                    "x": -550, 
+                    "y": 80
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 6, 
+                            "body_index": 0, 
+                            "instance_id": "3c6ee2f324f7420e", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "264ca8d40da009dc"
+                    ], 
+                    "point_id": "d625f7061994e3cb", 
+                    "x": -580, 
+                    "y": 50
                 }
             ], 
             "signals": [
@@ -17094,6 +16681,61 @@
                     "point_id": "6fcd6df3ce8593cd", 
                     "x": -660, 
                     "y": 450
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "a6f97f3468ac8e08", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "545a0bf430734dad", 
+                        "f3f3f1882f6a0f4e"
+                    ], 
+                    "point_id": "0150854877b5cceb", 
+                    "x": -20, 
+                    "y": 630
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 5, 
+                            "body_index": 0, 
+                            "instance_id": "c64be6916acd128f", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "0150854877b5cceb"
+                    ], 
+                    "point_id": "545a0bf430734dad", 
+                    "x": -70, 
+                    "y": 630
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "9a842b74a61d6a94", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "0150854877b5cceb"
+                    ], 
+                    "point_id": "f3f3f1882f6a0f4e", 
+                    "x": -20, 
+                    "y": 670
                 }
             ], 
             "signals": [
@@ -27849,14 +27491,14 @@
         }, 
         {
             "control_points": [], 
-            "layer": "top copper", 
+            "layer": "bottom copper", 
             "p1": {
-                "x": 24050000, 
-                "y": 2500000
+                "x": 4200000, 
+                "y": 15000000
             }, 
             "p2": {
-                "x": 28900000, 
-                "y": 2500000
+                "x": 4200000, 
+                "y": 8000000
             }, 
             "trace_type": "straight", 
             "width": 508000.0
@@ -28187,15 +27829,15 @@
             "control_points": [], 
             "layer": "top copper", 
             "p1": {
-                "x": 11000000, 
-                "y": 4000000
+                "x": 24050000, 
+                "y": 2500000
             }, 
             "p2": {
-                "x": 18000000, 
-                "y": 4000000
+                "x": 28900000, 
+                "y": 2500000
             }, 
             "trace_type": "straight", 
-            "width": 152400.0
+            "width": 508000.0
         }, 
         {
             "control_points": [], 
@@ -28229,12 +27871,12 @@
             "control_points": [], 
             "layer": "top copper", 
             "p1": {
-                "x": 16975000, 
-                "y": 5476994
+                "x": 12025000, 
+                "y": 20750000
             }, 
             "p2": {
-                "x": 18000000, 
-                "y": 6501994
+                "x": 19975000, 
+                "y": 20750000
             }, 
             "trace_type": "straight", 
             "width": 152400.0
@@ -28297,17 +27939,17 @@
         }, 
         {
             "control_points": [], 
-            "layer": "bottom copper", 
+            "layer": "top copper", 
             "p1": {
-                "x": 4200000, 
-                "y": 15000000
+                "x": 11000000, 
+                "y": 4000000
             }, 
             "p2": {
-                "x": 4200000, 
-                "y": 8000000
+                "x": 18000000, 
+                "y": 4000000
             }, 
             "trace_type": "straight", 
-            "width": 508000.0
+            "width": 152400.0
         }, 
         {
             "control_points": [], 
@@ -28383,12 +28025,12 @@
             "control_points": [], 
             "layer": "bottom copper", 
             "p1": {
-                "x": 3200000, 
-                "y": 8000000
+                "x": 27800000, 
+                "y": 15000000
             }, 
             "p2": {
-                "x": 3200000, 
-                "y": 15000000
+                "x": 27800000, 
+                "y": 11500000
             }, 
             "trace_type": "straight", 
             "width": 508000.0
@@ -28537,12 +28179,12 @@
             "control_points": [], 
             "layer": "top copper", 
             "p1": {
-                "x": 12025000, 
-                "y": 20750000
+                "x": 16975000, 
+                "y": 5476994
             }, 
             "p2": {
-                "x": 19975000, 
-                "y": 20750000
+                "x": 18000000, 
+                "y": 6501994
             }, 
             "trace_type": "straight", 
             "width": 152400.0
@@ -28661,17 +28303,17 @@
         }, 
         {
             "control_points": [], 
-            "layer": "bottom copper", 
+            "layer": "top copper", 
             "p1": {
-                "x": 27800000, 
-                "y": 15000000
+                "x": 14650000, 
+                "y": 12450000
             }, 
             "p2": {
-                "x": 27800000, 
-                "y": 11500000
+                "x": 14000000, 
+                "y": 11800000
             }, 
             "trace_type": "straight", 
-            "width": 508000.0
+            "width": 152400.0
         }, 
         {
             "control_points": [], 
@@ -28689,17 +28331,17 @@
         }, 
         {
             "control_points": [], 
-            "layer": "top copper", 
+            "layer": "bottom copper", 
             "p1": {
-                "x": 14650000, 
-                "y": 12450000
+                "x": 3200000, 
+                "y": 8000000
             }, 
             "p2": {
-                "x": 14000000, 
-                "y": 11800000
+                "x": 3200000, 
+                "y": 15000000
             }, 
             "trace_type": "straight", 
-            "width": 152400.0
+            "width": 508000.0
         }
     ], 
     "version": {
