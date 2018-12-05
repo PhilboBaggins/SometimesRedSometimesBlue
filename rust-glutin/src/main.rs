@@ -26,8 +26,7 @@ fn main() {
     let mut rng = rand::thread_rng();
     if rng.gen() {
         unsafe { gl::ClearColor(1.0, 0.0, 0.0, 1.0); }  // Red
-    }
-    else {
+    } else {
         unsafe { gl::ClearColor(0.0, 0.0, 1.0, 1.0); }  // Blue
     }
 
