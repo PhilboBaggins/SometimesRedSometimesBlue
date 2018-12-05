@@ -4,3 +4,5 @@ version = "0.1.0"
 authors = ["Phil <PhilboBaggins@users.noreply.github.com>"]
 
 [dependencies]
+piston_window = "0.81.0"
+rand = "0.6.1"
