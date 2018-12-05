@@ -1,0 +1,6 @@
+[package]
+name = "SometimesRedSometimesBlue"
+version = "0.1.0"
+authors = ["Phil <PhilboBaggins@users.noreply.github.com>"]
+
+[dependencies]
