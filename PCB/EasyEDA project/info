@@ -1,0 +1,217 @@
+{
+  "uuid": "98efe998307db85087c55128df744b93",
+  "path": "Offline/SomtimesRedSometimesBlue",
+  "name": "SomtimesRedSometimesBlue",
+  "content": "",
+  "created_at": "2022-04-09 21:07:42",
+  "updated_at": "2022-04-10 02:40:36",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5a9ec95b5c629d8c8fa1f28077076dbf",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ad01460639ff4446bbe92509337973c9": 1,
+        "43f814f1990e4865aa9e5166958ee3bc": 1,
+        "ed9eb2faffb34286820a54a14e9e9e24": 3,
+        "304a4bd5b1b1404ebd38f02ede74b1e9": 1,
+        "de9c053684794f0291155d634d77ca0f": 1,
+        "0806368f73e1232ca543f14a515367b4": 1,
+        "a82d9706d7134ae43b0a2fc6ee167cc8": 1,
+        "13f960f6ce424a0f1233d9516a6a8162": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CR2032-BS-6-1",
+          1,
+          "BAT-TH_CR2032-BS-6-1",
+          "B1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Q&J",
+            "BOM_Manufacturer Part": "CR2032-BS-6-1",
+            "BOM_Supplier Part": "C70377",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "00ae2385590b4decadc3c0a04a7b1b7b",
+            "uuid": "13f960f6ce424a0f1233d9516a6a8162"
+          }
+        ],
+        [
+          "KT-0603R",
+          1,
+          "LED0603-R-RD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "KT-0603R",
+            "BOM_Supplier Part": "C2286",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "50dc3b6111d549ddb6686d77ab1ebdd8",
+            "uuid": "0806368f73e1232ca543f14a515367b4"
+          }
+        ],
+        [
+          "1206B",
+          1,
+          "LED1206-R-RD",
+          "LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "1206B",
+            "BOM_Supplier Part": "C72691",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0a940a525b9c48ed84e36ff31ec5bcc7",
+            "uuid": "a82d9706d7134ae43b0a2fc6ee167cc8"
+          }
+        ],
+        [
+          "130",
+          1,
+          "R0805",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "30",
+          1,
+          "R0805",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0805",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "C13828",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C13828",
+            "BOM_Manufacturer": "Dongguan Guangzhu Industrial",
+            "BOM_Manufacturer Part": "C13828",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "153ed004b0794cb6b8a2ebde7a1aabdf",
+            "uuid": "304a4bd5b1b1404ebd38f02ede74b1e9"
+          }
+        ],
+        [
+          "CD4013BM96G4",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "CD4013BM96G4",
+            "BOM_Supplier Part": "C134130",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "de9c053684794f0291155d634d77ca0f"
+          }
+        ],
+        [
+          "74HC08D,653",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Nexperia",
+            "BOM_Manufacturer Part": "74HC08D,653",
+            "BOM_Supplier Part": "C5593",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "ad01460639ff4446bbe92509337973c9"
+          }
+        ],
+        [
+          "8MHz",
+          1,
+          "OSC-SMD_4P-L3.2-W2.5-BL",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C717687",
+            "BOM_Manufacturer": "YXC扬兴科技",
+            "BOM_Manufacturer Part": "OT32258MJBA4SL",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fde525906f004b04890fe3f9fe02cca8",
+            "uuid": "43f814f1990e4865aa9e5166958ee3bc"
+          }
+        ]
+      ],
+      "updateTime": 1649517451,
+      "createTime": 1649502463,
+      "histories": [],
+      "created_at": "2022-04-09 21:07:43",
+      "updated_at": "2022-04-10 01:17:31"
+    },
+    {
+      "uuid": "27f0637592e2157ab9b97e485e39235b",
+      "puuid": "98efe998307db85087c55128df744b93",
+      "title": "PCB_SomtimesRedSometimesBlue",
+      "filename": "PCB_SomtimesRedSometimesBlue.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "00ae2385590b4decadc3c0a04a7b1b7b": 1,
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 1,
+        "0a940a525b9c48ed84e36ff31ec5bcc7": 1,
+        "b60f399a7a7e41848b2be1eb49c79141": 3,
+        "153ed004b0794cb6b8a2ebde7a1aabdf": 1,
+        "fde525906f004b04890fe3f9fe02cca8": 1,
+        "0f2364c02f094100b1b3205c9d829099": 2
+      },
+      "BOM": [],
+      "updateTime": 1649522436,
+      "createTime": 1649517279,
+      "histories": [],
+      "created_at": "2022-04-10 01:14:39",
+      "updated_at": "2022-04-10 02:40:36"
+    }
+  ],
+  "sort": [],
+  "title": "SomtimesRedSometimesBlue",
+  "foldername": "SomtimesRedSometimesBlue",
+  "schfilename": "SomtimesRedSometimesBlue.json",
+  "schfilemtime": 1649517451089
+}
