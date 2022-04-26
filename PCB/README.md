@@ -4,6 +4,10 @@
 
 ![Exports-v1.0/Schematic_SomtimesRedSometimesBlue_2022-04-10.png](Exports-v1.1/Schematic.png)
 
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+</video>
+
 ## Simulation
 
 [Simulation can be found here](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEDoE4DMAWATKhl0A2AdnVW0gA5lJkbkBTAWjDACgwEkxtrVDwxAfyjI2AJXC8QIwphkCI2GrTDRu60TAQd8IbMWWVaRasdHKTu2geVghIU4IE3R6NgHd92eSNsKoT295MEIbQ3AwwK8fVXJHO3jIIPRE5VSpamSvDLl9CLzs-LT9TDjLNgAnR0IzWkwM81V0ZOqnewEGuwcTZKwQADMPABNKgHsABwAdAEc7fWYwWhNoTEJsMntiVGJMUiwkKPZQ5UxzcwRpc3RBkfHpufAtKFh2fqHRydmbpUXl5GgYAwCEoQkI-GwS0gECOHHWIDOqgcl2oHUct0+Dxu-wgMGhbAA5sgjsiotgEC5osTaBcSS4gijnNSmUVGbSacs2AAPBGUEKXZAZThIeQ+EAAIQANgBXBjc3k3BDEZAGEBRUXycQMYYpOzSHio6RFIXSXLyVogFiKTDyK36KiiKFwQmW0L26h28mU416j1ug1Uu0Bph5APJSQsHiZV1RpqiMro-7aNgAZxjvstoaNTwALpVZUEgzbXYojWx0MR6kKHIimbjAhWq0Z6udVFo2GMnoUEZBUKg6Hj4DtCBTyRYnu5O2Lu2U+y94JAhLgyJgEOgeEhB3Bh6PN-pSo42EA)
